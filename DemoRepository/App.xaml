@@ -1,0 +1,10 @@
+﻿<Application x:Class="DemoRepository.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DemoRepository"
+             xmlns:vm="clr-namespace:DemoRepository.ViewModels"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <vm:MainViewModel x:Key="Main" />
+    </Application.Resources>
+</Application>
